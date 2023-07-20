@@ -1,0 +1,62 @@
+._content._show {
+  display: block;
+  opacity: 1;
+  overflow: auto;
+  animation-name: show;
+  animation-duration: 0.3s;
+}
+
+._content {
+  display: none;
+  opacity: 0;
+  // overflow: hidden;
+}
+
+// ._content._hide {
+//   opacity: 0;
+//   // display: block;
+//   animation-name: hide;
+//   animation-duration: 0.5s;
+// }
+
+._btn {
+  cursor: pointer;
+}
+
+@keyframes show {
+  0% {
+    display: block;
+    opacity: 0;
+    // transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+    display: none;
+  }
+}
+
+// @keyframes hide {
+//   0% {
+//     opacity: 1;
+//     display: block;
+//   } 
+
+//   25% {
+//     opacity: 0.75;
+//   }
+
+//   50% {
+//     opacity: 0.5;
+//   }
+  
+//   75% {
+//     opacity: 0.25;
+//   }
+
+//   100% {
+//     opacity: 0;
+//     display: none;
+//   }
+// }

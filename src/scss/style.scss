@@ -1,0 +1,28 @@
+/* __________ Modules __________ */
+@import "../modules/functional/Theme/_theme.scss";
+@import "../modules/functional/Router/_router.scss";
+/* __________ /Modules __________ */
+
+
+/* __________ Components __________ */
+@import "components/_global";
+@import "components/_vars";
+@import "components/fonts";
+/* __________ /Components __________ */
+
+
+/*__________ Layouts __________*/
+@import "@/modules/layouts/Header/_header.scss";
+@import "@/modules/layouts/BaseLayout/_baseLayout.scss";
+@import "@/modules/layouts/Footer/_footer.scss";
+
+/*__________ /Layouts __________*/
+
+
+/*__________ Page __________*/
+@import "@/modules/pages/Home/_home.scss";
+@import "@/modules/pages/Products/_products.scss";
+@import "@/modules/pages/Order/_order.scss";
+@import "@/modules/pages/Delivery/_delivery.scss";
+@import "@/modules/pages/Contacts/_contacts.scss";
+/*__________ /Page __________*/
