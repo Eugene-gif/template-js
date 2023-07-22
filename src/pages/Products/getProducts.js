@@ -1,7 +1,8 @@
 export function setupGetProducts() {
 
   const products = {
-    url: 'data/products.json',
+    url: '../../data/products.json',
+    
     getData: function (url) {
       fetch(url).then(resp => resp.json()).then(
         data => {
@@ -9,6 +10,7 @@ export function setupGetProducts() {
         }
       ).catch(error => console.error(error));
     },
+
     cycleCards: function (data) {
       const list = document.querySelector('.products__list');
       for (let item of data) {

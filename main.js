@@ -23,23 +23,23 @@
 // setupCounter(document.querySelector('#counter'))
 
 // import { setupCounter } from "./src/js/counter";
-import { setupRouter } from "./src/modules/functional/Router/router";
-import { setupMenu } from "./src/modules/functional/Menu/menu";
-import { setupResize } from "./src/modules/functional/Resize/resize";
-import { setupTheme } from "./src/modules/functional/Theme/theme";
-import { setupGetProducts } from "./src/modules/pages/Products/getProducts";
-import { useSwitchContent } from "./src/hooks/useSwitchContent";
+import { setupRouter } from "@/utils/Router/router";
+import { setupMenu } from "@/utils/Menu/menu";
+import { setupResize } from "@/utils/Resize/resize";
+import { setupTheme } from "@/utils/Theme/theme";
+// import { setupGetProducts } from "@/modules/pages/Products/getProducts";
+import { useSwitchContent } from "@/hooks/useSwitchContent";
 // useSwitchContent();
 
 setupRouter(useSwitchContent);
 setupMenu();
 setupResize();
 setupTheme();
-setupGetProducts();
+// setupGetProducts();
 
 window.onload = function () {
   useSwitchContent();
-
+  
   setTimeout(() => {
     window.scrollTo(0, 0);
   }, 50);

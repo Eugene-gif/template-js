@@ -1,6 +1,6 @@
 /* __________ Modules __________ */
-@import "../modules/functional/Theme/_theme.scss";
-@import "../modules/functional/Router/_router.scss";
+@import "@/utils/Theme/_theme.scss";
+@import "@/utils/Router/_router.scss";
 /* __________ /Modules __________ */
 
 
@@ -12,17 +12,17 @@
 
 
 /*__________ Layouts __________*/
-@import "@/modules/layouts/Header/_header.scss";
-@import "@/modules/layouts/BaseLayout/_baseLayout.scss";
-@import "@/modules/layouts/Footer/_footer.scss";
+@import "@/layouts/Header/_header.scss";
+@import "@/layouts/BaseLayout/_baseLayout.scss";
+@import "@/layouts/Footer/_footer.scss";
 
 /*__________ /Layouts __________*/
 
 
 /*__________ Page __________*/
-@import "@/modules/pages/Home/_home.scss";
-@import "@/modules/pages/Products/_products.scss";
-@import "@/modules/pages/Order/_order.scss";
-@import "@/modules/pages/Delivery/_delivery.scss";
-@import "@/modules/pages/Contacts/_contacts.scss";
+@import "@/pages/Home/_home.scss";
+@import "@/pages/Products/_products.scss";
+@import "@/pages/Order/_order.scss";
+@import "@/pages/Delivery/_delivery.scss";
+@import "@/pages/Contacts/_contacts.scss";
 /*__________ /Page __________*/

@@ -18,8 +18,11 @@ export function setupRouter(useSwitchContent) {
           localStorage.setItem("page", data);
           // console.log(data);
 
-          console.log('used Switch Content');
+          console.log('used Switch Content', data);
           useSwitchContent();
+          if (localStorage.getItem('page') === data) {
+            window.location.hash = data;
+          }
           // contents.forEach((content) => {
           //   if (content.dataset.content === data) {
 

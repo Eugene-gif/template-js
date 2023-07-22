@@ -26,3 +26,7 @@ export function useSwitchContent() {
   
   window.scrollTo(0, 0);
 }
+
+// if (localStorage.getItem('page') === data) {
+//   window.location.hash = data;
+// }
