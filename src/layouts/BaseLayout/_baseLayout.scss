@@ -1,9 +1,13 @@
 .base-layout {
-  margin-top: 70px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  // margin-top: var(--margin-header-laptop);
+  margin-top: var(--header);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   background-color: var(--light2);
   color: var(--dark);
+  @media(max-width: 968px) {
+    margin-top: var(--header-mobile);
+  }
 }
 
 .title-slogan {

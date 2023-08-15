@@ -47,13 +47,13 @@ body._lock {
   max-width: 1280px;
   margin: 0 auto;
 
-  &-fluid {
-    width: 100vw;
-  }
-
   @media(max-width: 620px) {
     padding: 0 15px;
   }
+}
+
+.container-fluid {
+  width: 100vw;
 }
 
 .container--inner {
